@@ -41,10 +41,6 @@ mkdir ~/DOSBOX/MARIO
 cp games/mario.zip ~/DOSBOX/MARIO/mario.zip
 unzip ~/DOSBOX/MARIO/mario.zip -d ~/DOSBOX/MARIO/
 
-mkdir ~/DOSBOX/ELDERSCR
-cp games/elderscr.zip ~/DOSBOX/ELDERSCR/elderscr.zip
-unzip ~/DOSBOX/ELDERSCR/elderscr.zip -d ~/DOSBOX/ELDERSCR/
-
 mkdir ~/DOSBOX/SM2
 cp games/smines2.zip ~/DOSBOX/SM2/smines2.zip
 unzip ~/DOSBOX/SM2/smines2.zip -d ~/DOSBOX/SM2/
