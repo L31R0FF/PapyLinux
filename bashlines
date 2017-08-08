@@ -1,0 +1,34 @@
+alias va='cd'
+alias retour='cd ..'
+alias installe='apt install'
+alias maj='apt update;apt dist-upgrade'
+alias ote='rm -i'
+alias n='elinks'
+alias f='mc'
+alias e='nano'
+
+
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P0000000" #black
+    echo -en "\e]P8474747" #darkgrey
+    echo -en "\e]P1FF0000" #darkred
+    echo -en "\e]P9FF4747" #red
+    echo -en "\e]P200FF00" #darkgreen
+    echo -en "\e]PA47FF47" #green
+    echo -en "\e]P3FFFF00" #brown
+    echo -en "\e]PBFFFF47" #yellow
+    echo -en "\e]P40000FF" #darkblue
+    echo -en "\e]PC4747FF" #blue
+    echo -en "\e]P5FF00FF" #darkmagenta
+    echo -en "\e]PDFF47FF" #magenta
+    echo -en "\e]P600FFFF" #darkcyan
+    echo -en "\e]PE47FFFF" #cyan
+    echo -en "\e]P7CCCCCC" #lightgrey
+    echo -en "\e]PFFFFFFF" #white
+    #for background artifacting
+fi
+
+setfont Lat7-VGA32x16.psf.gz
+setterm --background blue --foreground yellow --store
+
+bash menu.sh
