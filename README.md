@@ -1,5 +1,5 @@
 # PapyLinux
-An old computer (Commodore 64 or Apple II) like interface for Linux
+An old computer (**Commodore 64** or **Apple II**) like interface for Linux
 # /!\ Warning
 You need to be in the sudo group before installation
 
