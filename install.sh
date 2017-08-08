@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install links2 mc nano dosbox alsa-utils xorg
+sudo apt install links2 mc nano dosbox alsa-utils xorg python3
 
 mkdir ~/apps
 cp apps/menu.sh ~/menu.sh
